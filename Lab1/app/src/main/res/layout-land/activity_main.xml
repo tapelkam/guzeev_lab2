@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.denis.lab1.MainActivity">
+
+    <TextView
+        android:id="@+id/GroupID"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginTop="19dp"
+        android:text="@string/group_m091601_72"
+        android:textSize="24sp"
+        android:visibility="invisible"
+        app:layout_constraintLeft_toLeftOf="@+id/PatronymicID"
+        app:layout_constraintTop_toBottomOf="@+id/PatronymicID"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintTop_creator="1" />
+
+    <TextView
+        android:id="@+id/PatronymicID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:text="@string/patronymic_vladimirovich"
+        android:textSize="24sp"
+        android:visibility="invisible"
+        app:layout_constraintLeft_toLeftOf="@+id/NameID"
+        app:layout_constraintTop_toBottomOf="@+id/NameID"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintTop_creator="1" />
+
+    <TextView
+        android:id="@+id/NameID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:text="@string/name_denis"
+        android:textSize="24sp"
+        android:visibility="invisible"
+        app:layout_constraintLeft_toLeftOf="@+id/SurnameID"
+        app:layout_constraintTop_toBottomOf="@+id/SurnameID"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintTop_creator="1" />
+
+    <Button
+        android:id="@+id/ButtonAuthorId"
+        android:layout_width="201dp"
+        android:layout_height="38dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:onClick="onClickAuthorID"
+        android:text="@string/author"
+        android:textSize="14sp"
+        app:layout_constraintHorizontal_bias="0.472"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LabWorkID"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/SurnameID" />
+
+    <TextView
+        android:id="@+id/SurnameID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="67dp"
+        android:layout_marginStart="67dp"
+        android:layout_marginTop="96dp"
+        android:text="@string/surname_matyukhin"
+        android:textSize="24sp"
+        android:visibility="invisible"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintTop_creator="1" />
+
+    <TextView
+        android:id="@+id/LabWorkID"
+        android:layout_width="222dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="6dp"
+        android:text="@string/laboratory_work_1"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1" />
+</android.support.constraint.ConstraintLayout>

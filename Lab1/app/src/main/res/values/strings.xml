@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Lab1</string>
+    <string name="laboratory_work_1">Laboratory work №1</string>
+    <string name="author">Author</string>
+    <string name="surname_matyukhin">Surname: Matyukhin</string>
+    <string name="name_denis">Name: Denis</string>
+    <string name="patronymic_vladimirovich">Patronymic: Vladimirovich</string>
+    <string name="group_m091601_72">Group: M091601(72)</string>
+    <string name="aboutTheAuthor">About the author</string>
+    <string name="reset">Reset</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Лабораторная 1</string>
+    <string name="author">Автор</string>
+    <string name="group_m091601_72">Группа: М091601(72)</string>
+    <string name="laboratory_work_1">Лабораторная работа №1</string>
+    <string name="name_denis">Имя: Денис</string>
+    <string name="patronymic_vladimirovich">Отчество: Владимирович</string>
+    <string name="reset">Сброс</string>
+    <string name="surname_matyukhin">Фамилия: Матюхин</string>
+    <string name="aboutTheAuthor">Об авторе</string>
+</resources>
